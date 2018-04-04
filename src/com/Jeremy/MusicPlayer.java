@@ -43,7 +43,7 @@ public class MusicPlayer {
 
     public void listAlbums() {
         for (int i = 0; i < albums.size(); i++) {
-            System.out.println(i + "." + " " + albums.get(i).getAlbum());
+            System.out.println((i+1) + "." + " " + albums.get(i).getAlbum());
         }
 
     }

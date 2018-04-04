@@ -49,7 +49,7 @@ public class Album {
 
     public void listSongs() {
         for (int i=0; i<songs.size(); i++) {
-            System.out.println((i + 1) +"." + " " + songs.get(i).getName() + " - " + songs.get(i).getDuration());
+            System.out.println((i + 1) +"." + " " + songs.get(i).getName() + " - " + songs.get(i).getDuration() + " minutes");
         }
     }
 

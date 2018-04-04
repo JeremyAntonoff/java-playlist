@@ -58,7 +58,7 @@ public class PlayList {
                     listIterator.next();
                     forwards = true;
                 } else if (!listIterator.hasNext()) {
-                    System.out.println("Reached the end of the  play list");
+                    System.out.println("Reached the end of the  playlist");
                     displayMenu();
                     choice = scanner.nextInt();
                 } else {
@@ -74,7 +74,7 @@ public class PlayList {
                     listIterator.previous();
                     forwards = false;
                 } else if (!listIterator.hasPrevious()) {
-                    System.out.println("Reached the beggining of the playlist");
+                    System.out.println("Reached the beginning of the playlist");
                     displayMenu();
                     choice = scanner.nextInt();
                 } else {
